@@ -104,6 +104,7 @@
         grid-area: logo;
         align-self: center;
         margin: 0;
+        text-align: unset;
     }
 
     .logo-container h2 {
@@ -113,6 +114,7 @@
 
     .logo-container img {
         height: 100%;
+        
     }
 
     .hero-image {
