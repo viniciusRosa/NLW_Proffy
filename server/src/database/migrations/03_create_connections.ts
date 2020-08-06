@@ -12,7 +12,8 @@ export async function up(knex: Knex) {
             .onUpdate('CASCADE');
 
         table.timestamp('created_at')
-            .defaultTo('now()')
+            // .defaultTo('now()') for mysql and postgres
+            .defaultTo(knex.raw('CURRENT_TIMESTAMP')) // for sqlite
             .notNullable();
        
     });
