@@ -1,11 +1,6 @@
 import React from 'react';
-import { View, Image, Text, ImageBackground } from 'react-native';
+import { View, Text, ImageBackground } from 'react-native';
 import styles from './styles';
-
-// import landingImage from '../../assets/images/landing.png';
-// import studyIcon from '../../assets/images/icons/study.png';
-// import giveClassesIcon from '../../assets/images/icons/give-classes.png';
-// import heartIcon from '../../assets/images/icons/heart.png';
 
 import giveClassesBgImage from '../../assets/images/give-classes-background.png'
 import { RectButton } from 'react-native-gesture-handler';
