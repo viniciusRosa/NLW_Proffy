@@ -20,6 +20,12 @@ title: {
     lineHeight: 32,
     maxWidth: 160,
     marginVertical: '8%'
+},
+
+header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between'
 }
 
 

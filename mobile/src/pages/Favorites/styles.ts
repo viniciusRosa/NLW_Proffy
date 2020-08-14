@@ -7,6 +7,11 @@ container: {
     backgroundColor: '#f0f0f7',
 },
 
+teacherList: {
+    marginTop: '-13%',
+}
+
+
 });
 
 export default styles;
