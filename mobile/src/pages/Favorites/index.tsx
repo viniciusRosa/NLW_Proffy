@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, Text, ImageBackground } from 'react-native';
+import { View } from 'react-native';
 import styles from './styles';
 import PageHeader from '../../components/PageHeader';
 import { ScrollView } from 'react-native-gesture-handler';
