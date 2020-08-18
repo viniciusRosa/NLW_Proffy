@@ -10,7 +10,7 @@ import api from '../../services/api';
 
 
 export interface Teacher {
-	id: string;
+	id: number;
 	avatar: string;
 	bio: string;
 	cost: number;
